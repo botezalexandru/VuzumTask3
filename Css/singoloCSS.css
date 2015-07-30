@@ -26,6 +26,9 @@ body {
 
 
 .portofolio {
+
+    padding-top: 66px;
+    padding-bottom: 73px;
     background-color: #2d303a;
 }
 
@@ -84,6 +87,15 @@ body {
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 10px;
+
+}
+
+.portofolio_pictures > li > img{
+    transition: 0.5s;
+}
+
+.portofolio_pictures > li > img:hover{
+    opacity: 0.6;
 }
 
 
