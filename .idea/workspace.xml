@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb88d49-f8a4-48dd-b32b-fa1bb6828fdd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/Portofolio/portofolio_9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Css/singoloCSS.css" afterPath="$PROJECT_DIR$/Css/singoloCSS.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Task3.iws" />
@@ -23,21 +37,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45464602">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state vertical-scroll-proportion="-21.038462">
+              <caret line="37" column="38" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singoloCSS.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="singoloCSS.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Css/singoloCSS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.2139785">
+              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -73,8 +87,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Css/JavaScript/main.js" />
-        <option value="$PROJECT_DIR$/Css/singoloCSS.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Css/singoloCSS.css" />
       </list>
     </option>
   </component>
@@ -301,18 +315,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Css/singoloCSS.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state vertical-scroll-proportion="-21.038462">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Css/singoloCSS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45464602">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.2139785">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
           <folding />
         </state>
       </provider>
