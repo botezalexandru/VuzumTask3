@@ -20,3 +20,24 @@
     margin: 0 auto;
     max-width: 940px;
 }
+
+
+.portofolio {
+    background-color: #2d303a;
+}
+
+.portofolio_title {
+    font-family: LatoBlack;
+    color: #666d89;
+    font-size: 1.85em;
+
+}
+
+.portofolio_text {
+    font-family: LatoLight;
+    color: #767e9e;
+    font-size: 1.125em;
+}
+
+
+
