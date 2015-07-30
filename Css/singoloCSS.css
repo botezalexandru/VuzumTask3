@@ -15,6 +15,9 @@
     src: url(../font/Lato-Black.ttf);
 }
 
+body {
+    margin: 0;
+}
 
 .inner-content {
     margin: 0 auto;
