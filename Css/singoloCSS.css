@@ -319,3 +319,30 @@ ul {
     padding-right: 10px;
 }
 
+footer {
+    background-color: #2d303a;
+}
+
+.copyright {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding-top: 34px;
+    padding-bottom: 33px;
+
+    font-family: LatoRegular;
+    color: #666d89;
+    font-size: 0.729em;
+}
+
+.social-media-container {
+    display: inline-block;
+    width: 69%;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 24px;
+}
+
+footer .social-media-sites {
+    margin: 0;
+}
