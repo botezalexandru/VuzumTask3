@@ -7,7 +7,6 @@ $(function () {
             .fadeOut()
             .promise()
             .done( function() {
-                console.log( group );
                 $('.portofolio_pictures ' + group).fadeIn();
             });
     }

@@ -54,18 +54,14 @@ ul {
 
 }
 
-.portofolio_menu {
-    padding-left: 0;
-
+.portofolio input[type=radio] {
+    display: none;
+    margin:10px;
 }
 
-.portofolio_menu > li {
+.portofolio input[type=radio] + label {
     display: inline-block;
-    margin-right: 10px;
-
-}
-
-.portofolio_menu > li > a {
+    margin-left: 6px;
     padding: 4px 7px;
     border: 1px solid #666d89;
     border-radius: 5px;
@@ -75,12 +71,21 @@ ul {
     font-size: 0.75em;
     text-decoration: none;
     transition: 0.5s;
+    cursor: pointer;
 }
 
-.portofolio_menu > li > a:hover {
+
+.portofolio input[type=radio]:checked + label {
     border: 1px solid #c5c5c5;
     color: #dedede;
 }
+
+.portofolio input[type=radio] + label:hover {
+    border: 1px solid #c5c5c5;
+    color: #dedede;
+}
+
+
 
 .portofolio_pictures {
     padding-top: 10px;
