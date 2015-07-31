@@ -18,8 +18,14 @@
     src: url(../font/Lato-Black.ttf);
 }
 
-body {
-    margin: 0;
+
+address {
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
 }
 
 .inner-content {
@@ -112,6 +118,7 @@ body {
     font-family: LatoLight;
     color: #767e9e;
     font-size: 1.125em;
+    line-height: 1.667;
 }
 
 .about-us_profile {
@@ -139,6 +146,7 @@ body {
     color: #666d89;
     font-size: 1.111em;
 
+
 }
 
 .about-us_profile > li > p {
@@ -147,7 +155,7 @@ body {
 
     font-family: LatoRegular;
     color: #767e9e;
-    font-size: 0.75em;
+    line-height:  1.797;
 
 }
 
@@ -199,4 +207,115 @@ body {
 }
 
 
+.get-a-quote {
+    background-color: #f06c64;
+    padding-top: 67px;
+    padding-bottom: 73px;
+}
+
+.get-a-quote > .inner-content > h4 {
+    margin: 0;
+    padding-bottom: 29px;
+
+    font-family: LatoBlack;
+    color: #f0d8d9;
+    font-size: 1.851em;
+
+
+
+}
+
+
+.get-a-quote > .inner-content > p {
+    margin: 0;
+    padding-bottom: 48px;
+    font-family: LatoLight;
+    color: #f0d9da;
+    font-size: 1.125em;
+    line-height: 1.667;
+
+}
+
+.quote-form {
+    display: inline-block;
+    width: 66%;
+    vertical-align: top;
+}
+
+::-webkit-input-placeholder { color: #f48c8f; }
+
+.quote-form  input,textarea {
+    display: block;
+    width: 90%;
+
+    border: 0;
+    border-radius: 5px;
+    padding-left: 14px;
+    margin-bottom: 16px;
+    background-color: #d6564f;
+
+    font-family: LatoRegular;
+    font-size: 0.75em;
+    color: #f48c8f;
+    line-height: 38px;
+
+}
+
+.quote-form textarea {
+    resize: none;
+    line-height: normal;
+    padding-top: 13px;
+    height: 190px;
+}
+
+.quote-form input[type = "submit"] {
+    width: 110px;
+    transition: 1s;
+}
+
+.quote-form input[type = "submit"]:hover {
+    background-color: white;
+}
+
+
+.contact-information {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    line-height: 1.797;
+}
+
+.contact-information > h6 {
+    margin: 0;
+
+    font-family: LatoBlack;
+    color: #f0d8d9;
+    font-size: 1.111em;
+
+}
+
+.contact-information > p, li {
+    font-family: LatoRegular;
+    color: #f0d8d9;
+    font-size: 0.75em;
+
+}
+
+
+
+.contact-information .contact_city-addr::before {
+    content: url("../Images/location.png");
+    padding-left: 2px;
+    padding-right: 11px;
+}
+
+.contact-information .contact_phone-number::before {
+    content: url("../Images/phone.png");
+    padding-right: 12px;
+}
+
+.contact-information .contact_email-addr::before {
+    content: url("../Images/mail.png");
+    padding-right: 10px;
+}
 
