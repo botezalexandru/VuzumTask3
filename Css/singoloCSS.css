@@ -45,9 +45,11 @@ header {
 }
 
 
+
 .inner-content {
     margin: 0 auto;
     max-width: 940px;
+    padding: 0 30px;
 }
 
 header .inner-content{
