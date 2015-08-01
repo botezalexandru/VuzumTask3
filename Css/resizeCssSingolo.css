@@ -1,9 +1,93 @@
 @media all and (max-width: 1024px) {
 
-}
-@media all and (max-width: 767px) {
 
 }
+
+@media all and (max-width: 768px) {
+
+}
+
 @media all and (max-width: 320px) {
 
+    .portofolio input[type=radio] + label {
+        display: block;
+        text-align: center;
+        padding: 14px 0;
+        margin-left: 0;
+        margin-bottom: 14px;
+
+    }
+
+    .portofolio_title {
+        text-align: center;
+    }
+
+    .portofolio_text {
+        text-align: center;
+    }
+
+    .about-us_profile > li {
+        display: block;
+        width: initial;
+    }
+
+    .about-us_profile > li > img {
+        width: 110%;
+    }
+
+    .about-us_profile > li > h4 {
+        text-align: center;
+    }
+
+
+    .about-us_profile > li > p {
+        text-align: center;
+    }
+
+    .about-us h2 {
+        text-align: center;
+    }
+
+    .about-us > .inner-content > p {
+        text-align: center;
+    }
+
+    .social-media-sites {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .quote-form {
+        width: 100%;
+    }
+
+    .get-a-quote > .inner-content > h4 {
+      text-align: center;
+    }
+
+    .get-a-quote > .inner-content > p {
+        text-align: center;
+    }
+
+    .quote-form input, textarea {
+        font-size: 1em;
+        width: 100%;
+    }
+
+
+    .quote-form input[type = "submit"] {
+        width: 107%;
+    }
+
+    .contact-information {
+        width: initial;
+    }
+
+    .contact-information > h6 {
+        text-align: center;
+    }
+
+    .contact-information > p {
+        text-align: center;
+    }
 }
