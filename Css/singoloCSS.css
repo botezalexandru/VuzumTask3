@@ -347,7 +347,7 @@ ul{
 }
 
 .social-media-sites > li:hover {
-    -webkit-filter: hue-rotate(147deg);
+    background-color: #F06C64;
 
 }
 
