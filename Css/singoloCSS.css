@@ -62,6 +62,7 @@ header .inner-content{
 
 .header-logo {
     position: absolute;
+    padding-left: 30px;
     left: 0;
     display: inline-block;
     font-family: 'LatoLight';
@@ -85,6 +86,9 @@ header .inner-content{
     display: inline-block;
     margin: 0;
     padding: 0;
+}
+.toggle-menu {
+    display: none;
 }
 ul{
     list-style-type: none;
@@ -118,7 +122,84 @@ ul{
     margin-left: 0px;
 }
 
+/* SLider css */
 
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+}
+
+.slider {
+
+    font-size: 0;
+
+}
+
+.banner {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.banner1 {
+    background-color: #f06c64;
+}
+
+.banner2 {
+    background-color: blue;
+}
+
+.banner3 {
+    background-color: green;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    background-color: #fff;
+    opacity: .7;
+    cursor: pointer;
+    transition: opacity .3s ease;
+    z-index: 2;
+}
+
+.arrow:hover {
+    opacity: .5;
+}
+
+.arrow-left {
+    left: 0;
+    background: url("../Images/slider_left_arrow.png") no-repeat center center;
+}
+
+
+.arrow-right {
+    right: 0;
+    background: url("../Images/slider_right_arrow.png") no-repeat center center;
+
+}
+.banner-content {
+   
+}
+.banner-content-image {
+    text-align: center;
+    /*temporar*/
+    padding-top: 70px;
+}
+.banner-content-image img {
+    width: 100%;
+    max-width: 797px;
+}
+
+/*Service CSS*/
 
 .our-services{
     padding: 75px 0 30px 0;
@@ -147,9 +228,9 @@ ul{
     padding: 46px 0 0 0;
     font-size: 0
 }
-.service{
+.service {
     display: inline-block;
-    max-width: 300px;
+    max-width: 33.33%;
     margin: 0 19px 35px 0;
     vertical-align: top;
 
